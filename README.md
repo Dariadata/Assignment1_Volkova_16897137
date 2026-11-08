@@ -17,7 +17,7 @@ Original dataset: [Figshare](https://doi.org/10.6084/m9.figshare.28785449)
 
 ## Files
 
-- `Assignment1_Volkova_16897137.ipynb` – analysis code
+- `analysis.ipynb` – code
 - `Assignment1_Volkova_16897137.pdf` – written report
 
 ## Requirements
