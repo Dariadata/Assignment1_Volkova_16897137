@@ -1,3 +1,6 @@
+pro_kremlin_dataset/
+anti_kremlin_dataset/
+outputs/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

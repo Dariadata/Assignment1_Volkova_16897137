@@ -1,0 +1,13 @@
+{
+  "post_id": "Unique identifier of the post within a given Telegram channel. This corresponds to the Telegram API\u2019s Message.id field.",
+  "post_datetime": "The complete UTC timestamp (date and time) indicating when the post was published. Useful for temporal analyses and event correlation.",
+  "message": "The original raw message text content sent in the post. It may include hashtags, mentions, links, or plain text.",
+  "media": "Placeholder reference to attached media such as images, videos, or documents. Media content itself is not stored due to size and access restrictions but is represented as an indicator of media presence.",
+  "replies_msg": "Metadata related to replies associated with a post.",
+  "reactions": "A dictionary of emoji-based reactions used by viewers on a post. Each key-value pair represents a reaction type and its frequency count.",
+  "post_views": "The number of times the post has been viewed. This reflects user exposure and engagement, although it may increase over time beyond the data collection point.",
+  "post_forwards": "The count of how many times the post was forwarded to other channels or users, indicating its virality and dissemination.",
+  "fwd_from": "If the post is forwarded, this field contains metadata about the original source else [false, -1]",
+  "channel": "Unique Telegram channel identifier (@username)",
+  "processed_message": "A cleaned and preprocessed version of the message field, used for NLP tasks. Includes lowercasing, stopword removal, lemmatization, and removal of URLs and emojis."
+}
