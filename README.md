@@ -15,8 +15,6 @@ Based on Bawa et al. (2025).
 
 Original dataset: [Figshare](https://doi.org/10.6084/m9.figshare.28785449)
 
-Raw data are not included in this repository.
-
 ## Files
 
 - `Assignment1_Volkova_16897137.ipynb` – analysis code
