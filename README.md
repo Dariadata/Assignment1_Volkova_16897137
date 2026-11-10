@@ -15,6 +15,14 @@ Based on Bawa et al. (2025).
 
 Original dataset: [Figshare](https://doi.org/10.6084/m9.figshare.28785449)
 
+## How to obtain the data
+
+The raw data are not included in this repository because of their size (about 4.5 GB). To reproduce the analysis:
+
+1. Download the dataset from Figshare: https://figshare.com/articles/dataset/Pro-Kremlin_and_Anti-Kremlin_Telegram_Dataset_during_Russia-Ukraine_Conflict_/28785449
+   (the same record is linked above via its DOI).
+2. Unzip the archive and place the files in the project folder so that the structure is:
+
 ## Files
 
 - `analysis.ipynb` – code
