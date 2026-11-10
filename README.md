@@ -22,6 +22,16 @@ The raw data are not included in this repository because of their size (about 4.
 1. Download the dataset from Figshare: https://figshare.com/articles/dataset/Pro-Kremlin_and_Anti-Kremlin_Telegram_Dataset_during_Russia-Ukraine_Conflict_/28785449
    (the same record is linked above via its DOI).
 2. Unzip the archive and place the files in the project folder so that the structure is:
+   Assignment1_Volkova_16897137/
+├── anti_kremlin_dataset/ (anti_kremlin1.csv ... anti_kremlin12.csv)
+├── pro_kremlin_dataset/ (pro-Kremlin CSV files)
+├── anti_kremlin_channel_list.csv
+├── pro_kremlin_channels_list.csv
+├── analysis.ipynb
+└── Assignment1_Volkova_16897137.pdf
+
+
+3. Open `analysis.ipynb` and run all cells from top to bottom. The first run reads all CSV files and can take several minutes; the results are then cached in a folder named after the study window, so later runs are faster.
 
 ## Files
 
